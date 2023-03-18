@@ -312,11 +312,34 @@ h2 {
 
 
     }
-    .form-main-uno{
+    
+    /*.form-main-uno{
         height: 53px;
         width: 289px;
-
+        margin-top: -60px;
+        margin-left: 168px;
+        
     }
+     form textarea{
+        margin-top: 4px;
+        display: flex;
+        margin-left: -300px;
+        width: 20em;
+        height: 80px;
+        border-radius: 5px;
+    }
+    input{
+        display: flex;
+        height:8px;
+        margin-left: -300px;
+        height: 8px;
+        width: 30em;
+    }
+    .btn-enviar{
+        height: 38px;
+        width: 12rem;
+    
+    }*/
 }  
         
 
