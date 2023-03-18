@@ -259,14 +259,14 @@ h2 {
     }
     
     .hero-text h1 {
-        position: relative;
+        
         padding-top: 1em;
         display: grid;
-        font-family: 'Inter', sans-serif; 
+        
        font-size: 33px;
        line-height: 45px;;
         margin-top: 300px;
-        margin-left: 80px;
+        margin-left: 108px;
         text-align: center;
        
     }
@@ -281,16 +281,41 @@ h2 {
         text-align: center;
         font-size: 20px;
         line-height: 32px;
-        margin-left: 80px;
+        margin-left: 108px;
 
     }
-   .items button{
-    position: absolute;
-    width: 246px;
-    height: 109.95px;
-    left: 58px;
+   .items{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    }
+    .items button{
+        width: 238px;
+    height: 80px;
+    margin-bottom: 90px;
+    margin-left: 238px;
     background: #6C56C2;
-    border-radius: 8px;
+    border-radius: 14px;
+    }
+    .items img {
+        height: 14px;
+        width: 17px;
+        margin-top: -118px;
+        margin-left: 288px;
+        
+
+    }
+    .items p{
+        font-size: small;
+        margin-left: 308px;
+        margin-top: -118px
+
+
+    }
+    .form-main-uno{
+        height: 53px;
+        width: 289px;
+
     }
 }  
         
