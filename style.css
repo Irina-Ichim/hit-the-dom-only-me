@@ -70,16 +70,20 @@ ul li a:hover {
     padding: 0.5em 2em;
 }
 .checkbtn {
-    line-height: 35px;
-    font-size: 40px;
+    line-height: 20px;
+    font-size: 30px;
     background-color:rgba(108, 86, 194, 1);
+    color: #FFFFFF;
     float: right;
-    text-align: center;
-    height: 44px;
-    width: 38px;
-    display: none;
+    margin-right: 40px;
+    height: 34px;
+    width: 28px;
     cursor: pointer;
+    display: none;
     }
+.check{
+    display: none;
+}
 .hero-main {
     padding-top: 3em;
     display: grid;
