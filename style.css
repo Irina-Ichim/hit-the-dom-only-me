@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgba(19, 24, 57, 1);
+body{
+
+   background-color: rgba(19, 24, 57, 1);
 }
 
 .container {
@@ -68,6 +69,17 @@ ul li a:hover {
     text-align: center;
     padding: 0.5em 2em;
 }
+.checkbtn {
+    line-height: 35px;
+    font-size: 40px;
+    background-color:rgba(108, 86, 194, 1);
+    float: right;
+    text-align: center;
+    height: 44px;
+    width: 38px;
+    display: none;
+    cursor: pointer;
+    }
 .hero-main {
     padding-top: 3em;
     display: grid;
@@ -230,25 +242,45 @@ h2 {
 }
 
 @media screen and (max-width: 640px) {
-
-    body {
-        background-color: red;
-        font-family: 'Inter', sans-serif; 
-    }
-    .container{
+    .container {
+        width: 100%;
+        margin: 0 auto;
         display: grid;
-        justify-content: center;
     }
+
+
+   .checkbtn{
+    display: block;
+    margin-right: 70px;
+    margin-top: 10px;
+   }
     
     .header_navbar img{
         width: 65px;
         height: 39px;
-        margin-left: 24px;
+        margin-left: 44px;
         margin-top: 10px;
     }
-    .navbar {
-        display:none;
+   /* ul{
+        position:fixed;
+        width: 100%;
+        height:100vh;
+        top:80px;
+        left:-100%;
+        text-align:center;
+        transition: all 5s;
     }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height:30px;
+
+    }
+    nav ul li a{
+        font-size: 20px;
+
+    }*/
+
     .btn_header{
         display: none;
     }
@@ -292,55 +324,47 @@ h2 {
     .items button{
         width: 238px;
     height: 80px;
-    margin-bottom: 90px;
-    margin-left: 238px;
+    margin-bottom: 130px;
+    margin-left: 258px;
     background: #6C56C2;
     border-radius: 14px;
     }
     .items img {
         height: 14px;
         width: 17px;
-        margin-top: -118px;
-        margin-left: 288px;
+        margin-top: -178px;
+        margin-left: 328px;
         
 
     }
     .items p{
         font-size: small;
-        margin-left: 308px;
-        margin-top: -118px
+        margin-left: 338px;
+        margin-top: -178px
 
 
     }
     
-    /*.form-main-uno{
+
+    .form-main-uno{
         height: 53px;
         width: 289px;
-        margin-top: -60px;
+        margin-top: -68px;
         margin-left: 168px;
-        
-    }
-     form textarea{
-        margin-top: 4px;
-        display: flex;
-        margin-left: -300px;
-        width: 20em;
-        height: 80px;
-        border-radius: 5px;
-    }
-    input{
-        display: flex;
-        height:8px;
-        margin-left: -300px;
-        height: 8px;
-        width: 30em;
+}  
+    .form-main-dos{
+        height: 440px;
+        width: 300px;
+        margin-left:-318px;
+        margin-top: 10px;
+
     }
     .btn-enviar{
-        height: 38px;
-        width: 12rem;
-    
-    }*/
-}  
         
+        width: 304px;
+        height:60px;
+    }
 
+        
+}
     
