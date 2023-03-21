@@ -254,39 +254,19 @@ h2 {
 
    .checkbtn{
     display: block;
-    margin-right: 98px;
+    margin-right: 40px;
    }
    
    .header_navbar img{
     margin-left: 58px;
    }
     
-  /*  ul{
-        position:fixed;
-        width: 100%;
-        height:100vh;
-        background: rgba(19, 24, 57, 1);
-        top: -200px;
-        left:180%;
-        text-align: center;
-        transition: all 5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height:30px;
-
-    }
-    nav ul li a{
-        font-size: 20px;
-
-    }
-    #check:checked ~ ul{
-        left:0;
-    }*/
+.navbar{
+    display:none;
+}
     
 
-    .btn_header, nav{
+    .btn_header {
         display: none;
     }
     .hero-pad img{
