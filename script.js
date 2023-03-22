@@ -16,3 +16,16 @@ function playSound(e) {
    const keys = Array.from(document.querySelectorAll('.key'));
    keys.forEach(key => key.addEventListener('transitionend', removeTransition));
    window.addEventListener('keydown', playSound);
+
+  // function ValidarEmail() {
+      const form = document.getElementsByName('form')
+      const button = document.getElementById('submmit')
+   //   const directionEmail = Email
+
+   //   if(nameEmail, directionEmail) {}
+
+   
+
+
+
+   
