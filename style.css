@@ -252,7 +252,7 @@ h2 {
     }
 
 
-   .checkbtn{
+  /* .checkbtn{
     display: block;
     margin-right: 40px;
     width: 40px;
@@ -282,9 +282,8 @@ h2 {
         
         padding-top: 1em;
         display: grid;
-        
-       font-size: 33px;
-       line-height: 45px;;
+        font-size: 33px;
+        line-height: 45px;;
         margin-top: 300px;
         margin-left: 108px;
         text-align: center;
@@ -351,7 +350,7 @@ h2 {
         
         width: 304px;
         height:60px;
-    }
+    }*/
 
         
 }
