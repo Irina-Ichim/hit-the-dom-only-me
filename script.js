@@ -17,24 +17,7 @@ function playSound(e) {
    keys.forEach(key => key.addEventListener('transitionend', removeTransition));
    window.addEventListener('keydown', playSound);
 
-  //document.getElementById("form-main")
-
-   /*function ValidaFormulario() {
-      const nombre = 'Nombre*'
-      const email = 'Email*'
-      if (nombre.length == 0) {
-      alert("Introduce un nombre valido")
-      return;
-      }else{
-         if (email.length == 0 || email.includes ('@')) {
-            alert("Introduce un correo valido")
-            return;
-         }
-
-      }
-
-
-   */
+  
 
       
 
